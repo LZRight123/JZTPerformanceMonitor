@@ -1,0 +1,15 @@
+use_frameworks!
+
+target 'JZTPerformanceMonitor_Example' do
+#  pod 'JZTPerformanceMonitor'
+ pod 'YYKit'
+ pod 'Masonry'
+ pod 'MBProgressHUD'
+ pod 'MJRefresh'
+
+  target 'JZTPerformanceMonitor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
