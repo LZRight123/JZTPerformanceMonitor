@@ -68,7 +68,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2F73B2CA11CF9B22208B2DF0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JZTPerformanceMonitor_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZTPerformanceMonitor_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -92,8 +91,6 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A91DB73DCEF23B2290CCD54 /* Pods-JZTPerformanceMonitor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZTPerformanceMonitor_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JZTPerformanceMonitor_Example/Pods-JZTPerformanceMonitor_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B59280F8C25E7F0E2CFE2572 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BFB00E2A8EB0A721529D0D31 /* JZTPerformanceMonitor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JZTPerformanceMonitor.podspec; path = ../JZTPerformanceMonitor.podspec; sourceTree = "<group>"; };
 		D0AA05E1B232C77CD048451A /* Pods_JZTPerformanceMonitor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JZTPerformanceMonitor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF231847BAE8A27BC8EE2BB2 /* Pods-JZTPerformanceMonitor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZTPerformanceMonitor_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JZTPerformanceMonitor_Example/Pods-JZTPerformanceMonitor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DFFAD2D5207C83FC001511E2 /* JZTShareVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZTShareVC.h; sourceTree = "<group>"; };
@@ -192,7 +189,6 @@
 			isa = PBXGroup;
 			children = (
 				DFFAD2D3207C83FC001511E2 /* JZTPerformanceMonitor */,
-				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for JZTPerformanceMonitor */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
@@ -267,16 +263,6 @@
 				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
-			isa = PBXGroup;
-			children = (
-				BFB00E2A8EB0A721529D0D31 /* JZTPerformanceMonitor.podspec */,
-				2F73B2CA11CF9B22208B2DF0 /* README.md */,
-				B59280F8C25E7F0E2CFE2572 /* LICENSE */,
-			);
-			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
 		DFFAD2D3207C83FC001511E2 /* JZTPerformanceMonitor */ = {
