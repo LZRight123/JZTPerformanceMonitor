@@ -14,6 +14,7 @@
 #import "JZTHookViewDisplayTimeManager.h"
 #import "JZTHttpProtocol.h"
 #import "JZTLaunchTimeManager.h"
+#import "JZTPerformanceMonitor.h"
 #import "JZTSessionConfiguration.h"
 #import "JZTViewDrawTimeManager.h"
 #import "NSBundle+PerformanceMonitor.h"

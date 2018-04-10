@@ -55,7 +55,6 @@
 		DFFAD331207C83FC001511E2 /* JZTPerformanceMonitor.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DFFAD30C207C83FC001511E2 /* JZTPerformanceMonitor.bundle */; };
 		DFFAD332207C83FC001511E2 /* JZTCaptureException.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFAD30F207C83FC001511E2 /* JZTCaptureException.m */; };
 		DFFAD333207C83FC001511E2 /* NSBundle+PerformanceMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFAD314207C83FC001511E2 /* NSBundle+PerformanceMonitor.m */; };
-		DFFAD335207C952E001511E2 /* JZTPerformanceMonitor.h in Sources */ = {isa = PBXBuildFile; fileRef = DFFAD334207C952E001511E2 /* JZTPerformanceMonitor.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -158,7 +157,7 @@
 		DFFAD312207C83FC001511E2 /* JZTSessionConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZTSessionConfiguration.h; sourceTree = "<group>"; };
 		DFFAD313207C83FC001511E2 /* JZTHttpProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZTHttpProtocol.h; sourceTree = "<group>"; };
 		DFFAD314207C83FC001511E2 /* NSBundle+PerformanceMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+PerformanceMonitor.m"; sourceTree = "<group>"; };
-		DFFAD334207C952E001511E2 /* JZTPerformanceMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZTPerformanceMonitor.h; sourceTree = "<group>"; };
+		DFFAD336207C9826001511E2 /* JZTPerformanceMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZTPerformanceMonitor.h; sourceTree = "<group>"; };
 		F07903E724956CDCB567B34C /* Pods-JZTPerformanceMonitor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZTPerformanceMonitor_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JZTPerformanceMonitor_Tests/Pods-JZTPerformanceMonitor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FE9F05A73911FDFEFEAF50F8 /* Pods-JZTPerformanceMonitor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZTPerformanceMonitor_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JZTPerformanceMonitor_Tests/Pods-JZTPerformanceMonitor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -283,7 +282,7 @@
 		DFFAD2D3207C83FC001511E2 /* JZTPerformanceMonitor */ = {
 			isa = PBXGroup;
 			children = (
-				DFFAD334207C952E001511E2 /* JZTPerformanceMonitor.h */,
+				DFFAD336207C9826001511E2 /* JZTPerformanceMonitor.h */,
 				DFFAD30C207C83FC001511E2 /* JZTPerformanceMonitor.bundle */,
 				DFFAD2D4207C83FC001511E2 /* PerformanceUI */,
 				DFFAD304207C83FC001511E2 /* JZTCaptureException.h */,
@@ -573,7 +572,6 @@
 				DFFAD325207C83FC001511E2 /* JZTMenuLabel.m in Sources */,
 				DFFAD333207C83FC001511E2 /* NSBundle+PerformanceMonitor.m in Sources */,
 				DFFAD316207C83FC001511E2 /* JZTRecordRequestList.m in Sources */,
-				DFFAD335207C952E001511E2 /* JZTPerformanceMonitor.h in Sources */,
 				DFFAD332207C83FC001511E2 /* JZTCaptureException.m in Sources */,
 				DFFAD317207C83FC001511E2 /* JZTRequestModel.m in Sources */,
 				6003F59E195388D20070C39A /* JZTAppDelegate.m in Sources */,

@@ -7,7 +7,7 @@
 //
 
 #import "JZTAppDelegate.h"
-
+#import <JZTPerformanceMonitor/JZTPerformanceMonitor.h>
 @implementation JZTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
