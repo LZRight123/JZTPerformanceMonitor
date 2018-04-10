@@ -12,6 +12,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[JZTLaunchTimeManager manager] startRecord];
+    [JZTSessionConfiguration configurationURLProtocol];
+    [JZTCaptureException start];
     // Override point for customization after application launch.
     return YES;
 }

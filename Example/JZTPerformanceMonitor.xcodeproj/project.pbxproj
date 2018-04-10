@@ -429,6 +429,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "350442340@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = M246FL86B4;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -706,6 +709,7 @@
 			baseConfigurationReference = DF231847BAE8A27BC8EE2BB2 /* Pods-JZTPerformanceMonitor_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M246FL86B4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JZTPerformanceMonitor/JZTPerformanceMonitor-Prefix.pch";
 				INFOPLIST_FILE = "JZTPerformanceMonitor/JZTPerformanceMonitor-Info.plist";
@@ -721,6 +725,7 @@
 			baseConfigurationReference = 8A91DB73DCEF23B2290CCD54 /* Pods-JZTPerformanceMonitor_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M246FL86B4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JZTPerformanceMonitor/JZTPerformanceMonitor-Prefix.pch";
 				INFOPLIST_FILE = "JZTPerformanceMonitor/JZTPerformanceMonitor-Info.plist";

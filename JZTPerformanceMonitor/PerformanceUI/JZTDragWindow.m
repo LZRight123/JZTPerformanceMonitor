@@ -9,6 +9,7 @@
 #import "JZTDragWindow.h"
 #import "JZTMonitorNavigationVC.h"
 #import "NSBundle+PerformanceMonitor.h"
+#import <Masonry/Masonry.h>
 #define ScreenWidth ([UIScreen mainScreen].bounds.size.width)
 #define ScreenHeight ([UIScreen mainScreen].bounds.size.height)
 #define PADDING 5
@@ -24,13 +25,6 @@
 @end
 
 @implementation JZTDragWindow
-- (void)test{
-    UITableViewController *vc = [[UITableViewController alloc]init];
-    vc.view.backgroundColor = [UIColor blueColor];
-    vc.view.userInteractionEnabled = NO;
-    self.rootViewController = vc;
-}
-
 
 + (instancetype)window{
     static JZTDragWindow *window = nil;
@@ -121,6 +115,8 @@
 - (UIImageView *)imageView{
     if (!_imageView) {
         _imageView = [[UIImageView alloc]initWithImage:[NSBundle jzt_drugImage]];
+        UIImage *img = [NSBundle jzt_drugImage];
+        NSLog(@"%@",img);
     }
     return _imageView;
 }

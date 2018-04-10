@@ -7,7 +7,7 @@
 //
 
 #import "JZTViewController.h"
-
+#import "JZTDragWindow.h"
 @interface JZTViewController ()
 
 @end
@@ -18,12 +18,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
+    
+    - (void)viewDidAppear:(BOOL)animated{
+        [super viewDidAppear:animated];
+        JZTDragWindow *dragWindow = [JZTDragWindow window];
+        [dragWindow makeKeyAndVisible];
+    }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 @end

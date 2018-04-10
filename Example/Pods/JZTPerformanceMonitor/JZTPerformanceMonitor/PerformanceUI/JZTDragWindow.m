@@ -121,6 +121,8 @@
 - (UIImageView *)imageView{
     if (!_imageView) {
         _imageView = [[UIImageView alloc]initWithImage:[NSBundle jzt_drugImage]];
+        UIImage *img = [NSBundle jzt_drugImage];
+        NSLog(@"%@",img);
     }
     return _imageView;
 }

@@ -10,3 +10,4 @@
 #import "JZTLaunchTimeManager.h"
 #import "JZTSessionConfiguration.h"
 #import "JZTCaptureException.h"
+#import "JZTDragWindow.h"
