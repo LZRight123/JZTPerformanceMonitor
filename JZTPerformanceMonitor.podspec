@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '350442340@qq.com' => '350442340@qq.com' }
   s.source           = { :git => 'https://github.com/LZRight123/JZTPerformanceMonitor.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '6.0'
+  s.ios.deployment_target = '8.0'
 
   s.source_files = 'JZTPerformanceMonitor/**/*.{h,m}'
   s.resource = 'JZTPerformanceMonitor/JZTPerformanceMonitor.bundle'
@@ -24,5 +24,6 @@ Pod::Spec.new do |s|
   s.dependency 'YYKit'
   s.dependency 'Masonry'
   s.dependency 'MBProgressHUD'
+  s.dependency 'MJRefresh'
   s.requires_arc = true
 end
