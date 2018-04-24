@@ -15,3 +15,5 @@ viewDidAppear:
 4.开启可视化窗口实时观测以上数据 在RootViewController viewDidAppear:方法里执行
 JZTDragWindow *dragWindow = [JZTDragWindow window];
 [dragWindow makeKeyAndVisible];
+
+https://github.com/LZRight123/JZTPerformanceMonitor.git

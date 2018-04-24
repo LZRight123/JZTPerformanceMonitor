@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JZTPerformanceMonitor'
-  s.version          = '1.0.2'
+  s.version          = '1.1.1'
   s.summary          = 'JZTPerformanceMonitor. 检测性能 抓包 崩溃记录'
   s.homepage         = 'https://github.com/LZRight123/JZTPerformanceMonitor'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
